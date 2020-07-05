@@ -84,7 +84,7 @@ null can't compare to any.
 
 ### update
 
-`update stu set class_id where class_id is null;`
+`update stu set class_id=2 where class_id is null;`
 
 ### delete 
 `delete from stu where age < 30 and class_id is null;`
